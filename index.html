@@ -13,10 +13,12 @@
 	<div class="container">
 		<div class="info">
 			<img class="avatar" src="/2021/images/IMG_157086003250584.jpeg" alt="Нет фотографии">
-
-			<h1>Ленковец Егор</h1>
-			<p>Я люблю путешествовать на машине</p>
+			<div class="info-text">
+				<h1>Ленковец Егор</h1>
+				<p>Я люблю путешествовать на машине</p>
+			</div>
 		</div>
+
 		<div class="contact">
 			<h2>Контакты</h2>
 			<ul class="list">
@@ -53,13 +55,35 @@
 			</table>
 		</div>
 
-
-		<h2>Языки</h2>
-		<p>Англияский</p>
-
-		<h2>Курсы</h2>
-		<p>Курсы Александра Лущенко по JavaScript</p>
-		<p>Курсы Александра Лущенко по PHP</p>
+		<div class="cards bg-yellow">
+			<h2>Языки</h2>
+			<p>Англияский</p>
+		</div>
+		<div class="cards bg-green">
+			<h2>Курсы</h2>
+			<p>Курсы Александра Лущенко по JavaScript</p>
+			<p>Курсы Александра Лущенко по PHP</p>
+		</div>
+		<div class="contact">
+			<h2>Связаться со мной</h2>
+			<form action="/">
+				<div class="row">
+					<div class="form-group">
+						<label for="name">Ваше имя:</label>
+						<input type="text" id="name" placeholder="Введите ваше имя...">
+					</div>
+					<div class="form-group">
+						<label for="email">Ваш Email:</label>
+						<input type="email" id="email" placeholder="Введите email...">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="text">Ваше сообщение</label>
+					<textarea id="text" cols="15" rows="2"></textarea>
+				</div>
+				<input type="button" class="btn" value="Связаться!">
+			</form>
+		</div>
 
 	</div>
 </body>
